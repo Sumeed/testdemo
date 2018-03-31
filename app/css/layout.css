@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body, html {
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
+
+.container {
+  width: 100%;
+  padding: 0px; }
+
+header {
+  padding: 20px 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #FFF;
+  z-index: 9; }
+  header .logo img {
+    width: 12%;
+    float: left; }
+  header .rightnav {
+    padding: 0px;
+    margin-top: 10px;
+    text-align: right; }
+    header .rightnav li {
+      display: inline-block; }
+      header .rightnav li a {
+        color: #313131;
+        margin: 0 10px;
+        font-size: 20px; }
+        header .rightnav li a i {
+          font-size: 25px; }
+      header .rightnav li a:hover,
+      header .rightnav li a:focus {
+        color: #DB2C01;
+        text-decoration: none; }
+    header .rightnav li:last-child {
+      margin-right: 0px; }
+      header .rightnav li:last-child i {
+        color: #DB2C01; }
+
+section {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 0px;
+  position: relative; }
+  section .slick-list, section .slick-track {
+    height: 100%;
+    min-height: 100%; }
+  section .secOne {
+    height: 100%;
+    min-height: 100%; }
+    section .secOne .fixHeight {
+      height: 100%;
+      min-height: 100%;
+      margin: 0px;
+      display: block;
+      padding: 0px; }
+    section .secOne .top-detail {
+      padding: 8% 5% 0 25%;
+      top: 20%;
+      left: 0;
+      position: absolute;
+      bottom: 0;
+      color: #313131; }
+      section .secOne .top-detail .text {
+        position: relative;
+        -webkit-transition: all ease 3s;
+        transition: all ease 3s;
+        top: 80px;
+        opacity: 0; }
+        section .secOne .top-detail .text em {
+          font-size: 16px;
+          font-style: normal; }
+        section .secOne .top-detail .text h2 {
+          font-size: 5em;
+          margin: 25px 0px 35px 0px;
+          font-weight: bold; }
+        section .secOne .top-detail .text p {
+          margin-bottom: 15px;
+          font-size: 19px; }
+      section .secOne .top-detail a {
+        color: #DB2C01;
+        position: absolute;
+        right: 12%;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-decoration: none;
+        opacity: 0;
+        -webkit-transition: all ease 8s;
+        transition: all ease 8s;
+        z-index: 9; }
+      section .secOne .top-detail a:hover {
+        color: #313131; }
+      section .secOne .top-detail a:after {
+        position: absolute;
+        content: "\e606";
+        font-family: 'simple-line-icons';
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: bold;
+        top: 1px; }
+    section .secOne .top-detail:before {
+      position: absolute;
+      content: "HermanMiller";
+      color: #f6f6f6;
+      width: 100%;
+      left: 15px;
+      top: -15%;
+      z-index: -1;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 29px;
+      font-size: 9em; }
+    section .secOne .top-detail:after {
+      content: "";
+      background: #FFF;
+      width: 200px;
+      right: 50px;
+      height: 200px;
+      z-index: 4;
+      position: absolute;
+      top: 35.6%;
+      z-index: 2;
+      right: -49px; }
+    section .secOne .bottom-detail {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      left: 0;
+      bottom: 0; }
+      section .secOne .bottom-detail .chair-view {
+        background: #F6EDEE;
+        padding: 20px 20px;
+        padding-bottom: 0px;
+        text-align: center; }
+        section .secOne .bottom-detail .chair-view p {
+          position: absolute;
+          background: #F6EDEE;
+          color: #F6EDEE;
+          width: 100%;
+          font-size: 19px;
+          top: -45px;
+          left: 0px;
+          padding: 10px 0;
+          -webkit-transition: all ease 3s;
+          transition: all ease 3s; }
+        section .secOne .bottom-detail .chair-view img {
+          width: 52%;
+          margin: 0 auto;
+          position: relative;
+          opacity: 0;
+          bottom: -100%;
+          -webkit-transition: all ease 3s;
+          transition: all ease 3s; }
+      section .secOne .bottom-detail .chair-review {
+        color: #FFF;
+        background: #DB2C01;
+        padding: 20px 20px; }
+        section .secOne .bottom-detail .chair-review h4 {
+          font-weight: bold;
+          position: relative;
+          left: -30px;
+          opacity: 0;
+          -webkit-transition: all ease 2s;
+          transition: all ease 2s; }
+        section .secOne .bottom-detail .chair-review p {
+          position: relative;
+          left: 100%;
+          -webkit-transition: all ease 2s;
+          transition: all ease 2s;
+          opacity: 0; }
+  section div {
+    padding: 0px;
+    margin: 0px; }
+  section .mainSlide {
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    z-index: 1; }
+    section .mainSlide .item {
+      height: 100%;
+      min-height: 100%;
+      display: block; }
+      section .mainSlide .item img {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        display: block;
+        left: 500px;
+        position: absolute;
+        opacity: 0;
+        -webkit-transition: left 500ms linear;
+        transition: left 500ms linear; }
+  section .slick-active .top-detail .text {
+    position: relative;
+    top: 0px;
+    opacity: 1; }
+  section .slick-active .top-detail a {
+    opacity: 1; }
+  section .slick-active .bottom-detail .chair-view img {
+    opacity: 1;
+    bottom: 0%; }
+  section .slick-active .bottom-detail .chair-view p {
+    color: #313131; }
+  section .slick-active .bottom-detail .chair-review h4 {
+    left: 0px;
+    opacity: 1; }
+  section .slick-active .bottom-detail .chair-review p {
+    left: 0%;
+    opacity: 1; }
+  section .slick-active .mainSlide .item img {
+    left: 0px;
+    opacity: 1;
+    -webkit-transition: all ease 8s;
+    transition: all ease 8s;
+    -webkit-transition: left 900ms linear;
+    transition: left 900ms linear; }
+
+.testpage .container {
+  margin-top: 20px;
+  width: 1170px; }
